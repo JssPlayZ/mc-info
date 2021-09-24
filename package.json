@@ -1,0 +1,25 @@
+{
+  "name": "mc-info",
+  "version": "1.0.0",
+  "description": "To get some info about MC server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JssPlayZ/mc-info.git"
+  },
+  "keywords": [
+    "mc"
+  ],
+  "author": "Jss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JssPlayZ/mc-info/issues"
+  },
+  "homepage": "https://github.com/JssPlayZ/mc-info#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
