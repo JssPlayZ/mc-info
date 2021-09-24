@@ -1,5 +1,5 @@
 {
-  "name": "mc-info",
+  "name": "mc-info.js",
   "version": "1.0.0",
   "description": "To get some info about MC server.",
   "main": "index.js",
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/JssPlayZ/mc-info.git"
   },
   "keywords": [
-    "mc"
+    "mc",
+    "Minecraft",
+    "Minecraft data",
+    "Minecraft server"
   ],
   "author": "Jss",
   "license": "ISC",
