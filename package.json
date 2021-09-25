@@ -1,6 +1,6 @@
 {
   "name": "mc-info.js",
-  "version": "0.1.6",
+  "version": "0.0.1",
   "description": "To get some info about MC server.",
   "main": "index.js",
   "scripts": {
