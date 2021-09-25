@@ -1,3 +1,5 @@
+[![downloadsBadge](https://img.shields.io/npm/dt/mc-info.js?style=for-the-badge)](https://npmjs.com/mc-info.js) [![versionBadge](https://img.shields.io/npm/v/mc-info.js?style=for-the-badge)](https://npmjs.com/mc-info.js)
+
 # A helpful package for fetching info about Minecraft server
 
 # Example code
