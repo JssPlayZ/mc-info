@@ -4,12 +4,12 @@
 
 # Example code
 ```javascript
-const { mcInfo } = require('mc-info.js')
-const mcinfo = new mcInfo()
+const { mcInfo } = require('mc-info.js');
+const mcinfo = new mcInfo();
 
 async function getServer() {
-    const server = await mcinfo.fetchServer("mc.hypixel.net")
-    console.log(server)
+    const server = await mcinfo.fetchServer("mc.hypixel.net");
+    console.log(server);
 }
 
 getServer();
@@ -52,3 +52,24 @@ getServer();
    thumbnail: 'http://status.mclive.eu/mc.hypixel.net/mc.hypixel.net/25565/banner.png'
 */
 ```
+```javascript
+async function getSkin() {
+    const user = await mcinfo.fetchSkin("Dream");
+    console.log(user);
+}
+
+getSkin();
+/*              Skin
+{
+  name: 'Dream',
+  id: 'ec70bcaf702f4bb8b48d276fa52a780c',
+  download: 'https://minotar.net/download/Dream',
+  skin: 'https://mc-heads.net/skin/ec70bcaf702f4bb8b48d276fa52a780c',
+  image: 'https://minecraftskinstealer.com/api/v1/skin/render/fullbody/Dream',
+  head: 'https://mc-heads.net/head/ec70bcaf702f4bb8b48d276fa52a780c',
+  helm: 'https://mc-heads.net/avatar/ec70bcaf702f4bb8b48d276fa52a780c',
+  cape: 'https://mc-heads.net/cape/ec70bcaf702f4bb8b48d276fa52a780c'
+}
+*/
+```
+![fullbody](https://user-images.githubusercontent.com/67428461/135573744-b1742db7-ce96-44b5-9a7e-241c63adefef.png)
