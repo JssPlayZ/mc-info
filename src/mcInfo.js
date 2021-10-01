@@ -16,6 +16,24 @@ class mcInfo {
             throw new Error("Something went wrong or the server is not found/offline.")
         }
     }
+    async fetchSkin(userName) {
+        if (typeof userName !== 'string') {
+            throw new Error("Given parameter is not a string.")
+        }
+        const user = await fetch("https://api.mojang.com/users/profiles/minecraft/" + userName)
+        if (user.status === 200 && user.statusText === 'OK') {
+            const body = await user.json()
+            body['download'] = `https://minotar.net/download/${body.name}`
+            body['skin'] = `https://mc-heads.net/skin/${body.id}`
+            body['image'] = `https://minecraftskinstealer.com/api/v1/skin/render/fullbody/${body.name}`
+            body['head'] = `https://mc-heads.net/head/${body.id}`
+            body['helm'] = `https://mc-heads.net/avatar/${body.id}`
+            body['cape'] = `https://mc-heads.net/cape/${body.id}`
+            return body
+        } else {
+            throw new Error("User not found or something went wrong.")
+        }
+    }
 }
 
 module.exports = mcInfo;
