@@ -72,7 +72,4 @@ getSkin();
 }
 */
 ```
-
-![download](https://user-images.githubusercontent.com/67428461/135573581-43ebc00c-4f1e-466c-bfcf-efdd015ebb00.png)
-![skin](https://user-images.githubusercontent.com/67428461/135573635-d7a882f5-d556-43ca-a256-e192a13d113a.png)
 ![fullbody](https://user-images.githubusercontent.com/67428461/135573744-b1742db7-ce96-44b5-9a7e-241c63adefef.png)
